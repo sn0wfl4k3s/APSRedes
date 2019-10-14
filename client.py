@@ -11,6 +11,7 @@ try:
     client.connect((host, port))
     client.send(number.encode())
     result = float(client.recv(1024))
+    client.close()
     print('25% de {0} é {1:2}'.format(number, result))
 except:
     print('Um erro ocorreu ao tentar conectar-se')
