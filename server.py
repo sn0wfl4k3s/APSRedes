@@ -28,4 +28,4 @@ while True:
         conn.close()
     else:
         # mensagem de erro caso o dado enviado não seja string decimal
-        print('Data out of ideal format.. =/')
+        print('Dado em formato não decimal.. =/')
