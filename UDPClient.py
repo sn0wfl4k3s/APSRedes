@@ -3,12 +3,16 @@ import socket
 host = '127.0.0.1'
 port = 12345
 
-# declarando a variável de tipo string ↓
-number = ''
+# setando a mensagem de entrada ↓
+inputMessage = 'Digite um número: '
+# lendo o número digitado ↓
+number = input(inputMessage)
 # repetirá enquanto o número digitado não for decimal ↓
 while not number.isdecimal():
-    # lendo o número digitado pelo usuário ↓
-    number = input('Digite um número: ')
+    # mensagem de erro caso digite um valor inválido ↓
+    print('Valor inválido, por favor ', end='')
+    # solicitando o número novamente ↓
+    number = input(inputMessage.lower())
 try:
     # instanciando o socket UDP para transmissão de dados em stream ↓
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

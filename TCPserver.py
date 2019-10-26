@@ -23,7 +23,7 @@ while True:
         # enviando o valor calculado para o cliente ↓
         conn.send(response.encode())
         # informando o resultado e para quem foi enviado ↓
-        print('{} enviado pelo {}'.format(response, addr))
+        print('{} enviado para: {}'.format(response, addr))
         # fechando a conexão com o cliente
         conn.close()
     else:
