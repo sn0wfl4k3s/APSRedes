@@ -24,4 +24,4 @@ while True:
         print('{} enviado para {}'.format(result, addr))
     else:
         # mensagem de erro caso o dado enviado não seja string decimal ↓
-        print('Dado em formato não decimal.. =/')
+        print('Erro: dado em formato não decimal.')
