@@ -13,7 +13,8 @@ Os códigos usados serão baseados na https://wiki.python.org.br/SocketBasico qu
 
 ## **Conceito de Socket e Camada de Aplicação:**
 
-Sockets são basicamente o ponto de comunicação entre processos através da rede criando um elo bidirecional de comunicação e compartilhamento de dados. A camada de aplicação é a mais alta dos protocolos sendo utilizada diretamente onde as aplicações atuam. Desse modo é possível criar aplicações de se comunicam da camada de aplicação diretamente para a camada de transporte através dos uso sockets, através de interfaces que geralmente os sistemas operacionais disponibilizam internamente e realizando assim uma conexão virtual TCP ponta-a-ponta usando modelos como cliente-servidor ou P2P (peer-to-peer).Sockets é a porta onde aplicações conversam entre si. 
+Sockets são basicamente o ponto de comunicação entre processos através da rede criando um elo bidirecional de comunicação e compartilhamento de dados. A camada de aplicação é a mais alta dos protocolos sendo utilizada diretamente onde as aplicações atuam. Desse modo é possível criar aplicações de se comunicam da camada de aplicação diretamente para a camada de transporte através dos uso sockets, através de interfaces que geralmente os sistemas operacionais disponibilizam internamente e realizando assim uma conexão virtual TCP ponta-a-ponta usando modelos como cliente-servidor ou P2P (peer-to-peer).Sockets é a porta onde aplicações conversam entre si.
+
 Segundo o Kurosi, " ...cada processo é semelhante a uma casa e que o socket é semelhante a uma porta. A aplicação reside em um lado da porta na casa; o protocolo da camada de transporte reside no outro lado da porta, no mundo exterior. O programador da aplicação controla tudo que está no lado da camada de aplicação da porta; contudo tem pouco controle do lado da camada de transporte."
 
 
